@@ -1,4 +1,4 @@
-# pip install langgraph
+# pip install langgrap
 
 from typing import List, TypedDict
 from langgraph.graph import StateGraph, END
