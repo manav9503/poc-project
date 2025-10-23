@@ -9,7 +9,7 @@ class ConversationState(TypedDict):
     messages: List[str]
 
 
-# ---- Mock LLM (no API needed) ----
+# ---- Mock LLM (no API needed) 
 def mock_llm(user_message: str) -> str:
     """Simple rule-based reply instead of real LLM"""
     if "hello" in user_message.lower():
