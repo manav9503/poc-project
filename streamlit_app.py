@@ -7,9 +7,7 @@ from graphviz import Digraph
 
 st.set_page_config(page_title="LangGraph Cluster Assistant", page_icon="🤖", layout="wide")
 
-# ============================================
-# ✅ Hugging Face Setup
-# ============================================
+
 HF_TOKEN = ""
 if not HF_TOKEN:
     st.sidebar.title("🔑 API Configuration")
